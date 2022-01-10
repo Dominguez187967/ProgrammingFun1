@@ -26,7 +26,7 @@ void draw() {
     stroke(random(255),random(255),random(255)) ;
     square(x[i], y[i], 20);
     
-  
+   
     x[i] = x[i] - speed[i];
     if(x[i] < 0) {
       x[i] = width;
