@@ -23,10 +23,10 @@ void draw() {
   
   int i = 0;
   while(i < 100) {
-    stroke(random(254),random(255),random(255)) ;
+    stroke(random(255),random(255),random(255)) ;
     square(x[i], y[i], 20);
     
-   
+  
     x[i] = x[i] - speed[i];
     if(x[i] < 0) {
       x[i] = width;
@@ -34,7 +34,6 @@ void draw() {
     i = i + 1;
   }
 }
-
 
 
 
