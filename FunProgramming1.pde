@@ -23,7 +23,7 @@ void draw() {
   
   int i = 0;
   while(i < 100) {
-    stroke(random(255),random(255),random(255)) ;
+    stroke(random(254),random(255),random(255)) ;
     square(x[i], y[i], 20);
     
    
