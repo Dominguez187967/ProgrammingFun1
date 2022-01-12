@@ -24,7 +24,7 @@ void draw() {
   int i = 0;
   while(i < 100) {
     stroke(random(255),random(255),random(255)) ;
-    point(x[i], y[i], 20);
+    point(x[i], y[i]);
     
   
     x[i] = x[i] - speed[i];
